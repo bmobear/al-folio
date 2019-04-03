@@ -39,3 +39,6 @@ figcaption {
     vertical-align: middle;
     font-size: $caption-font-size;
 }
+.contain {
+    object-fit: contain;
+}

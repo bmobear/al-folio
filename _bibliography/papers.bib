@@ -1,64 +1,85 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{pami2019/face,
+  title   = {Learning Pose-Aware Models for Pose-Invariant Face Recognition in the Wild},
+  author  = {I. {Masi} and F. {Chang} and J. {Choi} and S. {Harel} and J. {Kim} and K. {Kim} and J. {Leksut} and S. {Rawls} and Y. {Wu} and T. {Hassner} and W. {AbdAlmageed} and G. {Medioni} and L. {Morency} and P. {Natarajan} and R. {Nevatia}},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year    = {2019},
+  volume  = {41},
+  numbers = {2},
+  pages   = {379-393},
+  doi     = {10.1109/TPAMI.2018.2792452},
+  ISSN    = {0162-8828},
+  month   = {Feb},
+  abstract= "We propose a method designed to push the frontiers of unconstrained face recognition in the wild with an emphasis on extreme out-of-plane pose variations. Existing methods either expect a single model to learn pose invariance by training on massive amounts of data or else normalize images by aligning faces to a single frontal pose. Contrary to these, our method is designed to explicitly tackle pose variations. Our proposed Pose-Aware Models (PAM) process a face image using several pose-specific, deep convolutional neural networks (CNN). 3D rendering is used to synthesize multiple face poses from input images to both train these models and to provide additional robustness to pose variations at test time. Our paper presents an extensive analysis of the IARPA Janus Benchmark A (IJB-A), evaluating the effects that landmark detection accuracy, CNN layer selection, and pose model selection all have on the performance of the recognition pipeline. It further provides comparative evaluations on IJB-A and the PIPA dataset. These tests show that our approach outperforms existing methods, even surprisingly matching the accuracy of methods that were specifically fine-tuned to the target dataset."
+  }
 
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+
+@inproceedings{eccv2016/face,
+  title   = {Do we really need to collect millions of faces for effective face recognition?},
+  author  = { and Leksut, Jatuporn Toy and Medioni, G{\'e}rard},
+  author  = {I. {Masi} and A. T. {Tran} and T. {Hassner} and J. {Leksut} and G. {Medioni}},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages   = {579--596},
+  year    = {2016},
+  isbn    = "978-3-319-46454-1",
+  doi     = "10.1007/978-3-319-46454-1_35",
+  arxiv   = "1603.07057",
+  poster  = "http://www.eccv2016.org/files/posters/S-4B-09.pdf",
+  organization={Springer},
+  abstract= "Face recognition capabilities have recently made extraordinary leaps. Though this progress is at least partially due to ballooning training set sizes -- huge numbers of face images downloaded and labeled for identity -- it is not clear if the formidable task of collecting so many images is truly necessary. We propose a far more accessible means of increasing training data sizes for face recognition systems: Domain specific data augmentation. We describe novel methods of enriching an existing dataset with important facial appearance variations by manipulating the faces it contains. This synthesis is also used when matching query images represented by standard convolutional neural networks. The effect of training and testing with synthesized images is tested on the LFW and IJB-A (verification and identification) benchmarks and Janus CS2. The performances obtained by our approach match state of the art results reported by systems trained on millions of downloaded images."
 }
 
-@article{einstein1950meaning,
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@inproceedings{wacv2016/face,
+title={Face recognition using deep multi-pose representations},
+author={W. {AbdAlmageed} and Y. {Wu} and S. {Rawls} and S. {Harel} and T. {Hassner} and I. {Masi} and J. {Choi} and J. {Leksut} and J. {Kim} and P. {Natarajan} and R. {Nevatia} and G. {Medioni}},
+booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+year={2016},
+pages={1--9},
+doi={10.1109/WACV.2016.7477555},
+month={March},
+abstract={We introduce our method and system for face recognition using multiple pose-aware deep learning models. In our representation, a face image is processed by several pose-specific deep convolutional neural network (CNN) models to generate multiple pose-specific features. 3D rendering is used to generate multiple face poses from the input image. Sensitivity of the recognition system to pose variations is reduced since we use an ensemble of pose-specific CNN features. The paper presents extensive experimental results on the effect of landmark detection, CNN layer selection and pose model selection on the performance of the recognition pipeline. Our novel representation achieves better results than the state-of-the-art on IARPA's CS2 and NIST's IJB-A in both verification and identification (i.e. search) tasks.},
 }
 
-@article{PhysRev.47.777,
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777}
+
+@inproceedings{icpr2016/face,
+title={Expression invariant 3D face modeling from an RGB-D video},
+author={D. {Kim} and J. {Choi} and J. T. {Leksut} and G. {Medioni}},
+booktitle={International Conference on Pattern Recognition (ICPR)},
+year={2016},
+pages={2362--2367},
+doi={10.1109/ICPR.2016.7899989},
+ISSN={},
+month={Dec},
+abstract={We aim to reconstruct an accurate neutral 3D face model from an RGB-D video in the presence of extreme expression changes. Since each depth frame, taken by a low-cost sensor, is noisy, point clouds from multiple frames can be registered and aggregated to build an accurate 3D model. However, direct aggregation of multiple data produces erroneous results in natural interaction (e.g., talking and showing expressions). We propose to analyze facial expression from an RGB frame and neutralize the corresponding 3D point cloud if needed. We first estimate the person's expression by fitting blendshape coefficients using 2D facial landmarks for each frame and calculate an expression deformity (expression score). With the estimated expression score, we determine whether an input face is neutral or non-neutral. If the face is non-neutral, we proceed to neutralize the expression of the 3D point cloud in that frame. To neutralize the 3D point cloud of a face, we deform our generic 3D face model by applying the estimated blendshape coefficients, find displacement vectors from the deformed generic face to a neutral generic face, and apply the displacement vectors to the input 3D point cloud. After preprocessing frames in a video, we rank frames based on the expression scores and register the ranked frames into a single 3D model. Our system produces a neutral 3D face model in the presence of extreme expression changes even when neutral faces do not exist in the video.},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{icip2016/face,
+title={Accurate 3D face modeling and recognition from RGB-D stream in the presence of large pose changes},
+author={D. {Kim} and J. {Choi} and J. T. {Leksut} and G. {Medioni}},
+booktitle={IEEE International Conference on Image Processing (ICIP)},
+year={2016},
+pages={3011-3015},
+doi={10.1109/ICIP.2016.7532912},
+ISSN={2381-8549},
+month={Sep.},
+abstract={We propose a 3D face modeling and recognition system using an RGB-D stream in the presence of large pose changes. In the previous work, all facial data points are registered with a reference to improve the accuracy of 3D face model from a low-resolution depth sequence. This registration often fails when applied to non-frontal faces. It causes inaccurate 3D face models and poor performance of matching. We address this problem by pre-aligning each input face (`frontalization') before the registration, which avoids registration failures. For each frame, our method estimates the 3D face pose, assesses the quality of data, segments the facial region, frontalizes it, and performs an accurate registration with the previous 3D model. The 3D-3D recognition system using accurate 3D models from our method outperforms other face recognition systems and shows 100% rank 1 recognition accuracy on a dataset with 30 subjects.},
 }
 
-@article{einstein1905movement,
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@article{jicce2013/face,
+title = {3D Facial Landmark Tracking and Facial Expression Recognition},
+author = {G. {Medioni} and J. {Choi} and M. {Labeau} and J. T. {Leksut} and L. {Meng}},
+journal = {Journal of Information and Communication Convergence Engineering},
+year = {2013},
+month = {09},
+volume    = {11},
+number    = {3},
+pages     = {207--215},
+doi = {10.6109/jicce.2013.11.3.207},
+abstract={In this paper, we address the challenging computer vision problem of obtaining a reliable facial expression analysis from a naturally interacting person. We propose a system that combines a 3D generic face model, 3D head tracking, and 2D tracker to track facial landmarks and recognize expressions. First, we extract facial landmarks from a neutral frontal face, and then we deform a 3D generic face to fit the input face. Next, we use our real-time 3D head tracking module to track a person's head in 3D and predict facial landmark positions in 2D using the projection from the updated 3D face model. Finally, we use tracked 2D landmarks to update the 3D landmarks. This integrated tracking loop enables efficient tracking of the non-rigid parts of a face in the presence of large 3D head motion. We conducted experiments for facial expression recognition using both framebased and sequence-based approaches. Our method provides a 75.9% recognition rate in 8 subjects with 7 key expressions. Our approach provides a considerable step forward toward new applications including human-computer interactions, behavioral science, robotics, and game applications.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}

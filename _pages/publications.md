@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description:
+description: The science of knowing what you don’t and the art of looking like you do -- <a href="https://twitter.com/academicssay" target="_blank">@AcademicsSay</a>
 years: [2019, 2016, 2013]
 ---
 

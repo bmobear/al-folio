@@ -6,13 +6,13 @@ description: I can't find my socks..
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
+  image: prof_pic_toy.jpg
+<!--   address: >
     <p>University of Southern California</p>
     <p>Hedco Neuroscience Building</p>
     <p>Room 06, Mail Code 2520</p>
     <p>3641 Watt Way</p>
-    <p>Los Angeles, CA 90089</p>
+    <p>Los Angeles, CA 90089</p> -->
 
 news: false
 social: true

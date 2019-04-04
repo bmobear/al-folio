@@ -1,6 +1,7 @@
 ---
 layout: about
 permalink: /
+redirect_from: /hello/
 title: <strong>Toy</strong> Leksut
 description: I can't find my socks..
 

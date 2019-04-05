@@ -12,3 +12,21 @@
 .center{
     text-align: center;
 }
+
+.page-title {
+	text-align: center;
+    font-size: 28px;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+div.citation {
+	border-style: dashed;
+	margin: $space-2;
+	padding: $space-2;
+	border-width: 1px;
+	vertical-align: middle;
+	font-size: 0.85em;
+	line-height: 1em;
+}

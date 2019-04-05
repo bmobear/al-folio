@@ -88,6 +88,9 @@
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
   {% endif %}
+  {% if entry.page %}
+    [<a href="{{ entry.page | prepend: '/projects/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Project</a>]
+  {% endif %}
   </span>
 
   <!-- Hidden abstract block -->

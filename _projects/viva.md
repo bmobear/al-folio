@@ -80,12 +80,5 @@ From iLab-80M, we generate our own subsets for experiments conducted in this wor
     </p>
 </div>
 
-<div class="pub_img center" width="100%">
-    <img width="45%" src="{{ site.baseurl }}/assets/img/alexinet.png"/>
-    <img width="50%" src="{{ site.baseurl }}/assets/img/boxplot_multilayer.png"/>
-    <p class="caption">
-    Multi-layer injection results on iLab-2M
-    </p>
-</div>
 
 ---

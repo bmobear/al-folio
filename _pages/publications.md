@@ -8,10 +8,10 @@ years: [2019, 2016, 2013]
 
 <h3 class="year">2019</h3>
 <div class="pub_img" width="100%">
-	<img width="15%" src="{{ site.baseurl }}/assets/img/2019_pami_viva_0.png"/>
-	<img width="30%" src="{{ site.baseurl }}/assets/img/2019_pami_viva_6.png"/>
-	<img width="20%" src="{{ site.baseurl }}/assets/img/2019_pami_viva_7.png"/>
-	<img width="25%" src="{{ site.baseurl }}/assets/img/2019_pami_viva_8.png"/>
+	<img width="15%" src="{{ site.baseurl }}/assets/img/2019_viva_0.png"/>
+	<img width="30%" src="{{ site.baseurl }}/assets/img/2019_viva_6.png"/>
+	<img width="20%" src="{{ site.baseurl }}/assets/img/2019_viva_7.png"/>
+	<img width="25%" src="{{ site.baseurl }}/assets/img/2019_viva_plot_wb.png"/>
 </div>
 {% bibliography --file papers --query @article[key=pami2019/viva] %}
 

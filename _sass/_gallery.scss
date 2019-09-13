@@ -42,6 +42,13 @@ figcaption {
     vertical-align: middle;
     font-size: $caption-font-size;
 }
+.darkcaption {
+    height: 100%;
+    color: #595959;
+    text-align: left;
+    vertical-align: middle;
+    font-size: $caption-font-size;   
+}
 .contain {
     object-fit: contain;
 }

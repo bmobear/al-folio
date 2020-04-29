@@ -3,18 +3,19 @@ layout: page
 permalink: /publications/
 title: publications
 description: The science of knowing what you don’t and the art of looking like you do -- <a href="https://twitter.com/academicssay" target="_blank">@AcademicsSay</a>
-years: [2019, 2016, 2013]
+years: [2020, 2019, 2016, 2013]
 ---
 
-<h3 class="year">2019</h3>
+<h3 class="year">2020</h3>
 <div class="pub_img" width="100%">
 	<img width="15%" src="{{ site.baseurl }}/assets/img/2019_viva_0.png"/>
 	<img width="30%" src="{{ site.baseurl }}/assets/img/2019_viva_6.png"/>
 	<img width="20%" src="{{ site.baseurl }}/assets/img/2019_viva_7.png"/>
 	<img width="25%" src="{{ site.baseurl }}/assets/img/2019_viva_plot_wb.png"/>
 </div>
-{% bibliography --file papers --query @article[key=pami2019/viva] %}
+{% bibliography --file papers --query @article[key=imavis2020/viva] %}
 
+<h3 class="year">2019</h3>
 <div class="pub_img" width="100%">
 	<img width="50%" src="{{ site.baseurl }}/assets/img/2019_pami_face_1.png"/>
 	<img width="18%" src="{{ site.baseurl }}/assets/img/2019_PAMI_face_2.png"/>

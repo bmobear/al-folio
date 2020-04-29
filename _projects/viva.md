@@ -7,24 +7,25 @@ img: /assets/img/2019_viva_6.png
 
 <h2 class="page-title">Visual Variation Learning for Object Recognition</h2>
 
-<div class="pub_img center" width="100%">
-    <img width="19%" src="{{ site.baseurl }}/assets/img/2019_viva_0.png"/>
-    <img width="40%" src="{{ site.baseurl }}/assets/img/2019_viva_6.png"/>
-    <img width="25%" src="{{ site.baseurl }}/assets/img/2019_viva_7.png"/>
-</div>
 
-### Overview
 + We propose visual variation learning to improve object recognition with convolutional neural networks (CNN). While a typical CNN regards visual variations as nuisances and marginalizes them from the data, we speculate that some variations are informative. 
 + We study the impact of visual variation as an auxiliary task, during training only, on classification and similarity embedding problems. 
 + Our key contribution is that, at the cost of visual variation annotation during training only, CNN enhanced with visual variation learning learns better object representations.
 
-<div class="citation">
-    Visual Variation Learning for Object Recognition. Jatuporn Toy Leksut, Jiaping Zhao, Laurent Itti; Under Review, 2019 <br><br>
 
-
-    [<a href="" target="_blank">preprint coming soon</a>]
+<div class="pub_img center" width="100%">
+    <img width="50%" src="{{ site.baseurl }}/assets/img/2019_viva_7.png"/>
+    <p class="darkcaption">
+    Gradient-weighted class activation mapping (<a href="http://doi.acm.org/10.1109/ICCV.2017.74">Grad-CAM</a>) on iLab-2M test data. Both object instances are misclassified as car on ResNet without variation learning and correctly classified as van and monster on ResNet with variation learning (ResNet+Pose). The heatmaps on the second row highlight regions of the image that activate the incorrect class on ResNet and on the third row hightligh regions that activates the correct class on ResNet+Pose. ResNet+Pose is more tuned to the shape of an object across poses and focuses on distinctive features of each category (flat front of the van and oversized wheels of the monster truck).
+    </p>
 </div>
 
+
+<div class="citation">
+    Visual Variation Learning for Object Recognition. Jatuporn Toy Leksut, Jiaping Zhao, Laurent Itti; <em>Image and Vision Computing</em>, 2020 <br><br>
+
+    [DOI: <a href="https://doi.org/10.1016/j.imavis.2020.103912" target="_blank">10.1016/j.imavis.2020.103912</a>][<a href="{{ site.baseurl }}/assets/pdf/viva_preprint.pdf" target="_blank">Preprint</a>]
+</div>
 
 ---
 
@@ -38,7 +39,7 @@ The iLab-20M dataset is a large-scale controlled, parametric dataset of toy vehi
 + 88 different viewpoints (11 elevations x 8 azimuths)
 + 5 lighting conditions
 + 3 camera focus settings
-+ 14 -- 40 background images
++ 14--40 background images
 + 22 million images total
 
 <div class="pub_img center" width="100%">
@@ -68,6 +69,10 @@ The iLab-2M is a subset of iLab-80M sampled for experiments conducted in this wo
 
 <div class="link-button"><a href="http://ilab.usc.edu/ilab2m/iLab-2M.tar.gz">Download iLab-2M</a></div>
 
+<div class="pub_img center" width="100%">
+    <img width="50%" src="{{ site.baseurl }}/assets/img/2019_viva_6.png"/>
+</div>
+
 #### iLab-2M-Light
 The iLab-2M-Light is an extension of the iLab-2M that includes lighting conditions as an additional visual variation.
 + 30 poses (same as iLab-2M)
@@ -75,6 +80,8 @@ The iLab-2M-Light is an extension of the iLab-2M that includes lighting conditio
 + 1.36M training images, 316K validation images, 316K test images
 
 <div class="link-button"><a href="http://ilab.usc.edu/ilab2m/iLab-2M-Light.tar.gz">Download iLab-2M-Light</a></div>
+
+
 
 ---
 
@@ -153,14 +160,5 @@ if (document.getElementById("d8e71513-388d-42cb-894e-b50eb11bfc30")) {
 }
 </script></div>
 
----
 
-### Activation Map Visualization
-
-<div class="pub_img center" width="100%">
-    <img width="50%" src="{{ site.baseurl }}/assets/img/2019_viva_7.png"/>
-    <p class="darkcaption">
-    Gradient-weighted class activation mapping (<a href="http://doi.acm.org/10.1109/ICCV.2017.74">Grad-CAM</a>) on iLab-2M test data. Both object instances are misclassified as car on ResNet without variation learning and correctly classified as van and monster on ResNet with variation learning (ResNet+Pose). The heatmaps on the second row highlight regions of the image that activate the incorrect class on ResNet and on the third row hightligh regions that activates the correct class on ResNet+Pose. ResNet+Pose is more tuned to the shape of an object across poses and focuses on distinctive features of each category (flat front of the van and oversized wheels of the monster truck).
-    </p>
-</div>
 

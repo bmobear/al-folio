@@ -67,10 +67,15 @@ The iLab-2M is a subset of iLab-80M sampled for experiments conducted in this wo
 + 30 poses (5 elevations x 6 azimuths)
 + 1.2M training images, 270K validation images, 270K test images
 
+
 <div class="link-button"><a href="http://ilab.usc.edu/ilab2m/iLab-2M.tar.gz">Download iLab-2M</a></div>
 
 <div class="pub_img center" width="100%">
     <img width="50%" src="{{ site.baseurl }}/assets/img/2019_viva_6.png"/>
+</div>
+
+<div class="citation">
+    [<a href="{{ site.baseurl }}/assets/pdf/iLab2M.pdf" target="_blank">iLab2M Summary</a>]
 </div>
 
 #### iLab-2M-Light
@@ -80,7 +85,6 @@ The iLab-2M-Light is an extension of the iLab-2M that includes lighting conditio
 + 1.36M training images, 316K validation images, 316K test images
 
 <div class="link-button"><a href="http://ilab.usc.edu/ilab2m/iLab-2M-Light.tar.gz">Download iLab-2M-Light</a></div>
-
 
 
 ---
